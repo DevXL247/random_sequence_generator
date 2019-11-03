@@ -9,18 +9,18 @@ def roll (sides):
 
 def mechanism():
     sides = input("How many numbers you need?")
-    hello = 0
+    default_rolls = 0
     norolls = 0
 
     try:
-        norolls = input("How many rolls do you want? ")
+        norolls = input("Enter the highest integer in your data range:  ")
     except Exception:
-        print("Print a number fam, don't be stupid")
+        print("Your input was not an integer. Please type in an applicable number.")
 
     finally:
-        while hello < int(norolls):
+        while default_rolls < int(norolls):
             print(roll(sides))
-            hello += 1
+            default_rolls += 1
 
 mechanism()
 
