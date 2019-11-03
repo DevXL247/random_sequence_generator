@@ -8,7 +8,7 @@ def roll (sides):
 
 
 def mechanism():
-    sides = input("How many numbers you need?")
+    sides = input("How many terms would you like in your sequence?")
     default_rolls = 0
     norolls = 0
 
