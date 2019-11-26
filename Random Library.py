@@ -1,6 +1,7 @@
-
 import random
 
+##
+# rolls a number, with n amount of sides
 
 def roll (sides):
     num_rolled = random.randint(1, sides)
